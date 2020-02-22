@@ -1,0 +1,21 @@
+{
+    "name": "jonathan-martz/magento2-menu-developer",
+    "description": "Magento2 Developer Tab",
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "homepage": "https://www.jmartz.de"
+        }
+    ],
+    "require": {},
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "JonathanMartz\\Developer\\": "."
+        }
+    }
+}
